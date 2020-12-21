@@ -1,0 +1,14 @@
+Package: MaximinDesign
+Type: Package
+Title: A Method of Constructing Maximin Distance Designs
+Version: 1.0-1
+Description: We provide a method of constructing maximin distance designs. Details of the method can be found in Wenlong Li, Min-Qian Liu and Boxin Tang (2021). A method of constructing maximin distance designs. Biometrika, published online. <doi:10.1093/biomet/asaa089>  Important functions in this package are ``MaximinD'', ``MaximinDSeqDel'', ``Prop1'', ``Prop2'' and ``Prop3''. Important reminder: Before you first run our R codes, please install Matlab soft and find a folder called ``Matlab'' in folder ``man'' in R package MaximinDesign in SCAN or GitHub, and then put this folder to local disk (D:). Combining this and R function SaturatedOA give a saturated orthogonal array, which plays a supporting role in constrcting maximin distance designs.
+Author: Wenlong Li, Min-Qian Liu and Boxin Tang
+Maintainer: Wenlong Li <wenlongli@mail.nankai.edu.cn>
+License: LGPL
+Imports: R.matlab,matlabr,numbers,utils
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Repository: CRAN
+NeedsCompilation: no
+Packaged: 2020-12-21 07:53:12 UTC; wenlo
